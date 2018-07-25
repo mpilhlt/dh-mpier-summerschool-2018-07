@@ -29,14 +29,19 @@
     <link rel="stylesheet" href="extras/mermaid/mermaid.forest.css">
 
     <!-- substeps -->
-    <!-- <link rel="stylesheet" href="extras/impress-substeps/css/substeps.css"> -->
-
+<!--
+    <link rel="stylesheet" href="extras/impress-substeps/css/substeps.css" />
+-->
 
     <!-- chartist -->
+<!--
     <link rel="stylesheet" href="vendor/chartist/chartist.min-0.9.7.css" />
+-->
 
     <!-- codemirror -->
+<!--
     <link rel="stylesheet" href="vendor/codemirror/lib/codemirror.css" />
+-->
 
     <!-- highlight -->
     <link rel="stylesheet" href="vendor/highlight/styles/default.css" />
@@ -71,8 +76,8 @@
 <div id="impress" data-transition-duration="750">
 
     <div class="step slide" id="title" data-x="0" data-y="0" data-scale="2">
-        <h4><strong>2018-07-25</strong> | <a class="green" href="http://www.rg.mpg.de/">Max-Planck-Institute for European Legal History, Frankfurt/M.</a></h4>
-        <h4><strong>Summer Academy &quot;The World and the Village. The Global and the Local in Legal History&quot;</strong></h4>
+        <h4><strong>2018-07-25</strong> | <a class="green" href="http://www.rg.mpg.de/">Max-Planck-Institute for European Legal History</a></h4>
+        <h4><strong class="small">Summer Academy &quot;The World and the Village. The Global and the Local in Legal History&quot;</strong></h4>
 
         <h1 class="down-100">DH @ MPIeR</h1>
 
@@ -88,7 +93,7 @@
             <img src="resources/img/twitter_bird_logo_2012.svg" alt="Twitter" class="twitter-icon" />
                 <a class="green" href="https://twitter.com/anwagnerdreas" title="Andreas Wagner on Twitter">@anwagnerdreas</a> |
             <img src="resources/img/octicons-mark-github.svg" alt="Twitter" class="gh-icon" />
-                <a class="green" href="https://github.com/awagner-mainz" title="Andreas Wagner on GitHub">awagner-mainz</a> |
+                <a class="green" href="https://github.com/rg-mpg-de" title="MPIeR on GitHub">rg-mpg-de</a> |
                 <a class="green" href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>
         </h5>
     </div>
@@ -110,11 +115,8 @@
                 <li><i>Introduction</i></li>
                 <li>Digital Editions</li>
                 <li>Data Analysis</li>
-                    <ul>
-                        <li>text</li>
-                        <li>(database)</li>
-                    </ul>
-                <li>Other (publication/visualiation) activities</li>
+                <li>Digital Publications</li>
+                <li>Conclusion</li>
             </ol>
         </main>
     </div>
@@ -133,19 +135,22 @@
             <h1>Introduction</h1>
         </header>
         <main>
-            <h2>In how far is legal historical research relying on data?</h2>
-
+            <h2>Digital Methods &lt;=&gt;<br/>
+                automatic processing of<br/>
+                (large volumes of) data</h2>
+            <p>In how far is humanities&thinsp;/&thinsp;legal historical research relying on data?</p>
             <ul>
-                <li>Text data</li>
+                <li>Search (and present) textual sources</li>
+                <li>Compare, classify and sort related information</li>
+                <li>Map legal spaces to geographic spaces</li>
+<!--
                 <li>Institutional histories</li>
-                <li>Legal spaces map to geographic spaces?</li>
-                <li>Translation studies compare related texts in various ways</li>
-                <li>There are (law) resources that self-identify as databases/corpora<br/>
+                <li>There are (law) resources that self-identify as databases/corpora</li>
                     (Consider law databases and norm vocabulary being established in
                     the context of EU standardization/harmonization)
-                </li>
+-->
                 <li>Annotations? Reference lists?</li>
-                <li>Collaboration / Presentation Tools?</li>
+                <li>Collaboration&thinsp;/&thinsp;Presentation Tools?</li>
             </ul>
         </main>
     </div>
@@ -164,14 +169,14 @@
             <h1>Digital Editions</h1>
         </header>
         <main>
-            <h2>Digital Editions</h2>
             <div class="mfp-lightbox">
-                <ul> <a class="green" href="resources/img/dlc-1.png"><img style="float:right;margin-right:-6em;width:25em;z-index:1;border:1px solid #7ca6a6;box-shadow: 4px 4px 2px grey;" src="resources/img/dlc-1.png" alt="Digital Libraries Connected"/></a>
-                    <li><a class="green" href="http://dlc.mpdl.mpg.de/">Digital Libraries Connected</a></li>
-                    <li><a class="green" href="https://id.salamanca.school/works.W0004:frontmatter.1?viewer=https%3A%2F%2Ffacs.salamanca.school%2Fiiif%2Fpresentation%2FW0004%2Fcanvas%2Fp2">The School of Salamanca</a></li>
-                    <li><a class="green" href="https://www.ssrq-sds-fds.ch/exist/apps/ssrq">Sammlung Schweizerischer Rechtsquellen Online</a></li>
+                <ul> <a class="green" href="resources/img/dlc-1.png"><img style="float:right;margin-top:0em;margin-right:-1.5em;width:22em;z-index:1;border:1px solid #7ca6a6;box-shadow: 4px 4px 2px grey;" src="resources/img/dlc-1.png" alt="Digital Libraries Connected"/></a>
+                    <li><a class="green small" href="http://dlc.mpdl.mpg.de/">Digital Libraries Connected</a></li>
+                    <li><a class="green small" href="https://id.salamanca.school/works.W0004:frontmatter.1?viewer=https%3A%2F%2Ffacs.salamanca.school%2Fiiif%2Fpresentation%2FW0004%2Fcanvas%2Fp2">The School of Salamanca</a></li>
+                    <li><a class="green small" href="https://www.ssrq-sds-fds.ch/exist/apps/ssrq">Sammlung Schweizerischer<br/>
+                        Rechtsquellen</a></li>
                 </ul>
-                <a class="green" href="resources/img/svsal-2.png"><img style="margin-top:-8em;width:25em;z-index:999;border:1px solid #7ca6a6;box-shadow: 4px 4px 2px grey;" src="resources/img/svsal-2.png" alt="The School of Salamanca"/></a>
+                <a class="green" href="resources/img/svsal-2.png"><img style="margin-top:-9em;width:22em;z-index:999;border:1px solid #7ca6a6;box-shadow: 4px 4px 2px grey;" src="resources/img/svsal-2.png" alt="The School of Salamanca"/></a>
             </div>
         </main>
     </div>
@@ -205,57 +210,46 @@
     <div class="step slide" id="text_analysis_alignment">
         <header>
             <h1>Text Analysis</h1>
-            <h2>Types</h2>
+            <h2>Alignment</h2>
         </header>
         <main>
-            <div class="mfp-lightbox">
-                <a class="green" href="resources/img/ta_tasks.png">
-                    <img style="height:420px;margin-left:2em;margin-top:0em;border:1px solid #7ca6a6;box-shadow: 4px 4px 2px grey;" src="resources/img/ta_tasks.png" alt="Taxonomy of text analysis tasks"/>
-                </a>
+            <h2>Text alignment</h2>
+            <p>E.g. compare different editions of the same text:
+                Find "features" in both texts that allow linking of passages</p>
+            <div style="float:left;">
+                <p>Candidate features:</p>
+                <ul>
+                    <li>Names</li>
+                    <li>Sentence lengths</li>
+                    <li>"significant" words&thinsp;/&thinsp;topics</li>
+                </ul>
             </div>
-            <span style="font-size:12px;margin-left:50px;position:relative;top:-15px;">Source: <a href="https://doi.org/10.1111%2Fcgf.12873">Jänicke et al. / Visual Text Analysis in Digital Humanities. <i>Computer Graphics Forum</i> 36/6 (2017), p. 232</a></span>
+            <div style="margin-left:55%;">
+                <p>Difficulties:</p>
+                <ul>
+                    <li>multiple languages</li>
+                    <li>historical spelling</li>
+                    <li>abbreviations</li>
+                </ul>
+            </div>
         </main>
     </div>
 
-    
-    <div class="step slide" id="text_analysis_reuse" data-rel-x="1000" data-rel-y="0" data-scale="1">
+    <div class="step slide" id="text_analysis_alignmet_azp">
         <header>
             <h1>Text Analysis</h1>
-            <h2>Examples (1)</h2>
+            <h2>Alignment Examples</h2>
         </header>
         <main>
-            <h2>Text Re-Use Detection</h2>
-            <div class="mfp-lightbox">
-                <a class="green" href="resources/img/tr_grid.png">
-                    <img style="width:500px;margin-left:8em;border:1px solid #7ca6a6;box-shadow: 4px 4px 2px grey;" src="resources/img/tr_grid.png" alt="Grid of text reuse occurrences"/>
-                </a>
-            </div>
-            <span style="font-size:12px;margin-left:50px;position:relative;top:-15px;">Source: <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7294398&isnumber=7294366">Jänicke et al. / Visualizations for Text Re-use. <i>2014 International Conference on Information Visualization Theory and Applications (IVAPP)</i>, Lisbon, Portugal, 2014.</a></span>
+            <p>Project<br/>
+               <a class="green" href="http://www.rg.mpg.de/research/martin-de-azpilcuetas-manual-for-confessors">Azpilcueta's Manual and the phenomenon of epitomization</a></p>
         </main>
     </div>
-
-    <div class="step slide" id="text_analysis_reuse_network">
-        <header>
-            <h1>Text Analysis</h1>
-            <h2>Examples (1)</h2>
-        </header>
-        <main>
-            <h2>Text Re-Use Detection</h2>
-            <p>Possible continuation with Citation Analysis / Network Analysis</p>
-                <div class="mfp-lightbox">
-                <a class="green" href="resources/img/field_code.png">
-                    <img style="height:420px;margin-left:2em;margin-top:0em;border:1px solid #7ca6a6;box-shadow: 4px 4px 2px grey;" src="resources/img/field_code.png" alt="Network of borrowings in US civil procedure"/>
-                </a>
-            </div>
-            <span style="font-size:12px;margin-left:50px;position:relative;top:-15px;">Source: <a href="https://doi.org/10.1093/ahr/123.1.132">Funk and Mullen / The Spine of American Law: Digital Text Analysis and US Legal Practice. <i>The American Historical Review</i> 123/1 (2018), p. 149</a></span>
-        </main>
-    </div>
-
 
     <div class="step slide" id="text_analysis_collation_1">
         <header>
             <h1>Text Analysis</h1>
-            <h2>Examples (2)</h2>
+            <h2>Alignment Examples</h2>
         </header>
         <main>
             <h2>Edition Comparison / Text Collation / Alignment</h2>
@@ -274,7 +268,7 @@
             </div>
         </main>
     </div>
-
+    
     <div class="step slide" id="text_analysis_collation_2" data-rel-x="-280" data-rel-y="75" data-scale="0.48">
         <main>
             <img src="resources/img/collation_1_vvv_alignment.png" style="width:100%">
@@ -290,7 +284,7 @@
     <div class="step slide" id="text_analysis_collation_4" data-rel-x="-280" data-rel-y="-60" data-scale="1">
         <header>
             <h1>Text Analysis</h1>
-            <h2>Examples (2)</h2>
+            <h2>Alignment Examples</h2>
         </header>
         <main>
             <h2>Edition Comparison / Text Collation / Alignment</h2>
@@ -310,7 +304,7 @@
     <div class="step slide" id="text_analysis_collation_5" data-rel-x="0" data-rel-y="0">
         <header>
             <h1>Text Analysis</h1>
-            <h2>Examples (2)</h2>
+            <h2>Alignment Examples</h2>
         </header>
         <main>
             <h2>Edition Comparison / Text Collation / Alignment</h2>
@@ -333,33 +327,36 @@
             <img src="resources/img/collation_3_lera.png" style="width:118%;margin-left:-100px;">
         </main>
     </div>
-
-    <div class="step slide" id="text_analysis_collocations" data-rel-x="1000" data-rel-y="0">
+    
+    <div class="step slide" id="text_analysis_reuse_network" data-rel-x="1000" data-y="0">
         <header>
             <h1>Text Analysis</h1>
-            <h2>Examples (3)</h2>
+            <h2>Re-use detection</h2>
         </header>
         <main>
-            <h2>(Diachronic) Collocation Analysis</h2>
-            <div class="centered" style="margin-top:-2em;">
-                <a class="popup-player" href="resources/vid/diacollo.mp4">
-                    <video width="800" height="500" autoplay controls style="pointer-events:auto;">
-                        <source src="resources/vid/diacollo.mp4#t=33,60" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+            <h2>Text Re-Use Detection</h2>
+            <p>Project<br/>
+                <a class="green" href="http://www.rg.mpg.de/research/the-originality-requirement-in-u-s-copyright-law">Transferring Copyright Law from the English Statute of Anne to America</a></p>
+ 
+            
+            <p>Find out transfers or formulations/concepts
+               from one piece of legislation to subsequent ones</p>
+            <div class="mfp-lightbox">
+                <a class="green" href="resources/img/field_code.png">
+                    <img style="height:220px;margin-left:2em;margin-top:0em;border:1px solid #7ca6a6;box-shadow: 4px 4px 2px grey;" src="resources/img/field_code.png" alt="Network of borrowings in US civil procedure"/>
                 </a>
             </div>
-            <div width="100%" class="centered" style="clear:both;font-size:14px;">
-                DiaCollo: &lt;<a class="green" href="https://kaskade.dwds.de/dstar/dta/diacollo/?query=Konstitution&_s=submit&date=&slice=10&score=ld&kbest=10&cutoff=&profile=2&format=cloud&groupby=&eps=0">https://kaskade.dwds.de/dstar/dta/diacollo/</a>&gt;
-            </div>
+            <span style="font-size:12px;margin-left:50px;position:relative;top:-15px;">Source: <a href="https://doi.org/10.1093/ahr/123.1.132">Funk and Mullen / The Spine of American Law: Digital Text Analysis and US Legal Practice. <i>The American Historical Review</i> 123/1 (2018), p. 149</a></span>
+<!--
+            <p>Possible continuation with Citation Analysis&thinsp;/&thinsp;Network Analysis</p>
+-->
         </main>
     </div>
 
-
 <!-- 
+    Diachronic Collocates
     Topic Models
 -->
-
 
     <div class="step slide" id="database_analysis">
         <main>
@@ -373,22 +370,33 @@
 
     <div class="step slide" id="data_analysis_db1">
         <header>
-            <h1>Data Analysis</h1>
-            <h2>Examples (1)</h2>
+            <h1>Databases</h1>
+            <h2>Db Examples</h2>
         </header>
         <main>
-            <h3>Ex.: "Case" Data Model / MPRG Church Governance</h3>
+            <h3>MPRG <a class="green" href="http://www.rg.mpg.de/research/governance_of_the_universal_church">Church Governance</a></h3>
 
-            <p class="small">(<i>Hearings</i>, <i>Participants</i>, <i>Resolution</i>, <i>Matter</i>)<br/>
-                             Cf. <a href="https://doi.org/10.1007/s10506-012-9119-6">Wyner, Hoekstra / A Legal Case OWL Ontology with an Instantiation of <i>Popov v. Hayashi</i>. <i>Artificial Intelligence and Law</i> 20/1 (2012)</p>
+            <p class="small">(<i>Hearings</i>, <i>Participants</i>, <i>Resolution</i>, <i>Matter</i>)
+<!--
+                <br/>
+                             Cf. <a href="https://doi.org/10.1007/s10506-012-9119-6">Wyner, Hoekstra / A Legal Case OWL Ontology with an Instantiation of <i>Popov v. Hayashi</i>. <i>Artificial Intelligence and Law</i> 20/1 (2012)
+-->
+            </p>
 
+<!--
             <div class="mfp-lightbox">
                 <a class="green" href="resources/img/model_case.png">
                     <img style="height:420px;margin-left:-2.5em;margin-top:0em;border:1px solid #7ca6a6;box-shadow: 4px 4px 2px grey;z-index:0;" src="resources/img/model_case.png" alt="Data Model of Cases"/>
                 </a>
             </div>
-        
-            <div class="mfp-iframe" style="margin-left:12em;margin-top:-11em;width:740px;">
+-->
+            <div class="mfp-lightbox">
+                <a class="green" href="resources/img/neo4j.png">
+                    <img style="height:320px;margin-left:-2.5em;margin-top:0em;border:1px solid #7ca6a6;box-shadow: 4px 4px 2px grey;z-index:0;" src="resources/img/neo4j.png" alt="Data Model of Cases"/>
+                </a>
+            </div>
+
+            <div class="mfp-iframe" style="margin-left:12em;margin-top:-6.5em;width:740px;">
                 <iframe style="width:740px;height:350px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRSzcpAthLxUEDAb_X71Ah83RtN7mJyVtb9fvSDrsJHXbkvfTsBE7BgpYVzLS7Lo3G0KaG0lvk3Yb_q/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
             </div>
          </main>
@@ -396,114 +404,100 @@
 
     <div class="step slide" id="data_analysis_db2">
         <header>
-            <h1>Data Analysis</h1>
-            <h2>Examples (2)</h2>
+            <h1>Databases</h1>
+            <h2>Db Examples</h2>
         </header>
         <main>
-            <h3>Ex.: Graph Data Model / Histograph</h3>
-
-            <p>Possibly supported by Entity Extraction</p>
-
-            <div class="mfp-lightbox centered">
-                <a class="green" href="resources/img/historiograph.png">
-                    <img style="height:400px;border:1px solid #7ca6a6;box-shadow: 4px 4px 2px grey;z-index:0;" src="resources/img/historiograph.png" alt="Graph of themes and places related to oral accounts"/>
-                </a>
-            </div>
-            <div width="100%" class="centered" style="clear:both;font-size:14px;">
-                Histograph: &lt;<a href="http://histograph.cvce.eu/">http://histograph.cvce.eu/</a>&gt;
-            </div>
-         </main>
+            <p>Project<br/>
+                <a class="green" href="http://www.rg.mpg.de/forschung/repertorium-der-policeyordnungen">Repertory of police ordinances</a></p>
+        </main>
     </div>
+            
+            
+<!-- Space / GIS -->
 
-
-
-    <div class="step slide" id="spatial_analysis">
+    <div class="step slide" id="digital_publications">
         <main>
-            <h1 class="green">03.3</h1>
+            <h1 class="green">04</h1>
             <h2 class="line-height-one-five">
-                Data Analysis: Space
+                Digital Publications
             </h2>
         </main>
     </div>
 
-    <div class="step slide" id="data_analysis_geomapping">
+    <div class="step slide" id="digital_publications_1">
         <header>
-            <h1>Spatial Analysis</h1>
-            <h2>Examples (1)</h2>
+            <h1>Digital Publications</h1>
+            <h2>New Types</h2>
         </header>
         <main>
-            <h2>Geomapping</h2>
-            <div>
-                <img src="resources/img/pelagios_praunheimer_lager.png" style="vertical-align:top;width:800px;"><br>
-                <span style="font-size:14px;">Pelagios: &lt;<a class="green" href="http://pelagios.org/peripleo/map#at=50.15797900674531,8.571395874023438,11&layer=dare&ex=true&places=http%3A%2F%2Fdare.ht.lu.se%2Fplaces%2F38618">http://pelagios.org/peripleo/map</a>&gt;</span>
-                <img src="resources/img/ecartico.png" style="position:absolute;top:25%;left:44%;width:600px;">
-                <div style="text-align:right;font-size:14px;">Ecartico: &lt;<a class="green" href="http://www.vondel.humanities.uva.nl/ecartico/analysis/?task=numbersmap">http://www.vondel.humanities.uva.nl/ecartico</a>&gt;</div>
-            </div>
+            <h2>How and when to publish:</h2>
+            <ul>
+                <li>Digital Editions (perhaps just small contributions to ~)</li>
+                <li>Databases, "raw" or "cleaned" data</li>
+                <li>Blog entries</li>
+                <li>Podcasts</li>
+                <li>Maps and Visualizations</li>
+                <li>Software</li>
+            </ul>
+            <h2 class="invisible">How to cite? How to evaluate?</h2>
         </main>
     </div>
-
-
-
-    <div class="step slide" id="conclusion">
+    
+    <div class="step slide" id="digital_publications_2" data-rel-x="0" data-y="0">
+        <header>
+            <h1>Digital Publications</h1>
+            <h2>New Types</h2>
+        </header>
         <main>
-            <h1 class="green">04</h1>
+            <h2>How and when to publish:</h2>
+            <ul>
+                <li>Digital Editions (perhaps just small contributions to ~)</li>
+                <li>Databases, "raw" or "cleaned" data</li>
+                <li>Blog entries</li>
+                <li>Podcasts</li>
+                <li>Maps and Visualizations</li>
+                <li>Software</li>
+            </ul>
+            <h2>How to cite? How to evaluate?</h2>
+        </main>
+    </div>
+        
+    <div class="step slide" id="conclusion" data-rel-x="1000" data-y="0">
+        <main>
+            <h1 class="green">05</h1>
             <h2 class="line-height-one-five">
                 Conclusion
             </h2>
         </main>
     </div>
 
-    <div class="step slide" id="resume">
+    <div class="step slide" id="fin">
         <header>
             <h1>Conclusion</h1>
             <h2>DH@MPIeR</h2>
         </header>
         <main>
-            <p>Think about research as part of a <q>data lifecycle</q>
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em class="small pale">(from time to time)</em></p>
-
-            <h4>Digital tools and methods may help you to:</h4>
             <ul>
-                <li>Discover</li>
-                <li>Search (and Sort, Filter)</li>
-                <li>Manipulate (Workflow, Collaboration, Writing Tools)</li>
-                <li>Publish (Visualize, Present, Advertise)</li>
+                <li>Project support</li>
+                <li>Interest group "Digital Humanities"</li>
+                <li>Find further education&thinsp;/&thinsp;support</li>
+                <li><i>(Standalone research)</i></li>
             </ul>
-        </main>
-    </div>
-
-    <div class="step slide" id="fin">
-            <header>
-                <h1>Conclusion</h1>
-                <h2>DH@MPIeR</h2>
-            </header>
-            <main>
-                <h3>Plug: Interest Group "Digital Humanities"!</h3>
-            <h5>... and, of course, personal support:</h5>
-            <p>
-                <a class="green" href="https://www.rg.mpg.de/mitarbeiter/51578/712252"><strong>Andreas Wagner</strong></a> |
-                <strong>B 308</strong> | <strong>Tel: -107</strong> | (Except Wednesdays)<br>
-                <a class="green" href="mailto:wagner@rg.mpg.de" title="Andreas Wagner on E-Mail">wagner@rg.mpg.de</a> |
-                <img src="resources/img/twitter_bird_logo_2012.svg" alt="Twitter" class="twitter-icon" />
-                    <a class="green" href="https://twitter.com/anwagnerdreas" title="Andreas Wagner on Twitter">@anwagnerdreas</a>
-            </p>
         </main>
     </div>
 
     <div class="step slide" id="references">
         <header>
             <h1>References</h1>
-            <h2>Literature</h2>
+            <h2>1. Literature</h2>
         </header>
         <main>
             <ul style="font-size:18px;" >
                 <li><a href="https://doi.org/10.1093/ahr/123.1.132">Funk, K. and Mullen, L.A. / The Spine of American Law: Digital Text Analysis and U.S. Legal Practice. <i>American Historical Review</i> 123/1 (2018).</a></li>
-                <li><a href="https://dx.doi.org/10.1145/2746090.2746106">Graziadei, M. et al. / Linking Legal Open Data. Breaking the Accessibility and Language Barrier in European Legislation and Case Law. <i>ICAIL '15</i>.</a></li>
-                <li><a href="https://digitalcommons.law.byu.edu/lawreview/vol2017/iss6/8">Hamann, H. and Vogel, F. / Evidence-Based Jurisprudence Meets Legal Linguistics -- Unlikely Blends Made in Germany. <i>BYU Law Review</i> 2017/6.</a></li>
                 <li><a href="https://dx.doi.org/10.1111/cgf.12873">Jänicke, S. et al. / Visual Text Analysis in Digital Humanities. <i>Computer Graphics Forum</i> 36/6 (2017).</a></li>
                 <li><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7294398&isnumber=7294366">Jänicke, S. et al. / Visualizations for Text Re-use. <i>2014 International Conference on Information Visualization Theory and Applications (IVAPP)</i>, Lisbon, Portugal, 2014.</a></li>
                 <li><a href="https://dx.doi.org/10.1177/1473871616681374">Lettieri, N. et al. / The legal macroscope: Experimenting with visual legal analytics. <i>Information Visualization</i> (2016).</a></li>
-                <li><a href="https://doi.org/10.1017/S0738248016000353">Romney, Ch. / Using Vector Space Models to Understand the Circulation of Habeas Corpus in Hawai'i, 1852-92. <i>Law and History Review</i> 34/4 (2016).</a></li>
                 <li><a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2701539">Tanenhaus, D. and Nystrom, E. / The Future of Digital Legal History: No Magic, No Silver Bullets. <i>American Journal of Legal History</i> 150 (2016).</a></li>
                 <li><a href="https://doi.org/10.1111/ajps.12175">Wilkerson, J. et al. / Tracing the Flow of Policy Ideas in Legislatures: A Text Reuse Approach. <i>American Journal of Political Science</i> 59/4 (2015).</a></li>
                 <li><a href="https://doi.org/10.1007/s10506-012-9119-6">Wyner, A. and Hoekstra, R. / A Legal Case OWL Ontology with an Instantiation of <i>Popov v. Hayashi</i>. <i>Artificial Intelligence and Law</i> 2012.</a></li>
@@ -514,26 +508,27 @@
     <div class="step slide" id="links">
         <header>
             <h1>References</h1>
-            <h2>Links</h2>
+            <h2>2. Links</h2>
         </header>
         <main>
             <dl>
-                <dt>Links</dt>
-                <dd>
-                    <ul style="font-size:20px;">
-                        <li><a href="http://www.delightedbeauty.org/vvv/">Version Variation Visualization</a></li>
-                        <li><a href="https://lera.uzi.uni-halle.de/editions/1/edit">Lera</a></li>
-                        <li><a href="https://kaskade.dwds.de/dstar/dta/diacollo/">DiaCollo</a></li>
-                        <li><a href="http://histograph.cvce.eu/">Histograph</a></li>
-                        <li><a href="http://pelagios.org/peripleo/map">Pelagios/Peripleo</a></li>
-                        <li><a href="http://www.vondel.humanities.uva.nl/ecartico/analysis/?task=numbersmap">Ecartico</a></li>
-                    </ul>
-                </dd>
                 <dt>IG Wiki</dt>
                 <dd style="font-size:20px;"><a href="http://ig-dighum.wiki.gwdg.de/">http://ig-dighum.wiki.gwdg.de/</a></dd>
                 <dt>Presentation made using</dt>
                 <dd style="font-size:20px;"><a href="https://github.com/impress/impress.js">impress.js</a></dd>
             </dl>
+            <h2>&nbsp;</h2>
+            <p>View the presentation online:<br/>
+                <a href="https://rg-mpg-de.github.io/dh-mpier-summerschool-2018-07" title="View the presentation online">https://rg-mpg-de.github.io/dh-mpier-summerschool-2018-07</a>
+            </p>
+            <h2>&nbsp;</h2>
+            <p>
+                <a class="green" href="https://www.rg.mpg.de/mitarbeiter/51578/712252"><strong>Andreas Wagner</strong></a> |
+                <strong>B 308</strong> | <strong>Tel: -107</strong> | (Except Wednesdays)<br>
+                <a class="green" href="mailto:wagner@rg.mpg.de" title="Andreas Wagner on E-Mail">wagner@rg.mpg.de</a> |
+                <img src="resources/img/twitter_bird_logo_2012.svg" alt="Twitter" class="twitter-icon" />
+                    <a class="green" href="https://twitter.com/anwagnerdreas" title="Andreas Wagner on Twitter">@anwagnerdreas</a>
+            </p>
         </main>
     </div>    
 
@@ -559,7 +554,12 @@ if ("ontouchstart" in document.documentElement) {
      If you're curious about details, these are initialized in src/plugins/extras/extras.js -->
 <script type="text/javascript" src="extras/highlight/highlight.pack.js"></script>
 <script type="text/javascript" src="extras/mermaid/mermaid.min.js"></script>
-<!-- <script type="text/javascript" src="extras/impress-substeps/js/substeps.js"></script> -->
+
+<!--
+<script type="text/javascript" src="extras/impress-substeps/js/substeps2.js"></script>
+<script type="text/javascript" src="extras/impress-substeps/js/automatedpresentation.js"></script>
+-->
+
 <script type="text/javascript" src="extras/impress-console/js/impressConsole.js"></script>
 <script type="text/javascript">
   // For impressConsole, we unfortunately must also set the path to a mandatory css file
@@ -572,10 +572,13 @@ if ("ontouchstart" in document.documentElement) {
     <script src="vendor/jquery/jquery-1.11.0.min.js"></script>
 
     <!-- chartist -->
+<!--
     <script src="vendor/chartist/chartist.min-0.9.7.js"></script>
     <script src="resources/js/chartist.charts.js"></script>
+-->
 
     <!-- codemirror -->
+<!--
     <script src="vendor/codemirror/lib/codemirror.js"></script>
     <script src="vendor/codemirror/addon/edit/matchbrackets.js"></script>
     <script src="vendor/codemirror/mode/cypher/cypher.js"></script>
@@ -585,6 +588,7 @@ if ("ontouchstart" in document.documentElement) {
             theme: 'neo'
         });
     </script>
+-->
 
     <!-- highlight -->
     <script src="vendor/highlight/highlight.pack-9.3.0.js"></script>
@@ -602,6 +606,9 @@ if ("ontouchstart" in document.documentElement) {
 -->
 <script type="text/javascript" src="js/impress.js"></script>
 <script>impress().init();</script>
+<script>
+    var api = impress();
+</script>
 
 </body>
 </html>
